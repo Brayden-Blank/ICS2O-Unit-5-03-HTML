@@ -8,49 +8,56 @@
     <meta name="author" content="Brayden Blank" />
     <meta name="theme-color" content="#FFFFFF" />
     <title>What Movie Can You See?</title>
-    <link rel="canonical" href="https://brayden-blank.github.io/ICS2O-Unit-5-01-HTML/" />
-    <link rel="manifest" href="/ICS2O-Unit-5-01-HTML/manifest.webmanifest" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="canonical" href="https://brayden-blank.github.io/ICS2O-Unit-5-03-HTML/" />
+    <link rel="manifest" href="/ICS2O-Unit-5-03-HTML/manifest.webmanifest" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></noscript>
      <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-yellow.min.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-yellow.min.css" /> </noscript>
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
   </head>
-  <title>Number Guessing Game</title>
+  <title>What Movie Can You See?</title>
   <body>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <script src="./js/script.js"></script>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Number Guessing Game!</span>
+          <span class="mdl-layout-title">What Movie Can You See?</span>
         </div>
       </header>
       <main class="mdl-layout__content">
-        <p> Input Your Guess: </p>
-        <div id="slider-value"> 
-          Slider's Value:
-          ?
-        </div>  
-        <!-- Slider -->
-       <label>
-          <input id = "slider" class="mdl-slider mdl-js-slider" type="range"
-          min="1" max="6" value="2" tabindex="0"
-          onchange = "updateSliderValue(this.value)">
+        <p>How old are you?</p>
+        <!-- Radio Buttons -->
+       <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="under-thirteen">
+          <input type="radio" id="under-thirteen" class="mdl-radio__button" name="options" value="1">
+          <span class="mdl-radio__label">Under 13</span>
         </label>
+        <br>
+       <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="thirteen-to-sixteen">
+          <input type="radio" id="thirteen-to-sixteen" class="mdl-radio__button" name="options" value="1">
+          <span class="mdl-radio__label">13-16</span>
+        </label>
+        <br>
+       <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="seventeen-or-older">
+          <input type="radio" id="seventeen-or-older" class="mdl-radio__button" name="options" value="1">
+          <span class="mdl-radio__label">17+</span>
+        </label>
+        <br>
+        <br>
         <!-- Raised button with ripple -->
         <button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"   
-          onclick="guessClicked()"
+          onclick="determineClicked()"
           >
-          Input Your Guess!
+          Determine Rating
         </button>
         <br>
         <br>
         <br>
         <div id="user-info">
-          <div id="guess-result"></div>
+          <div id="rating-choice"></div>
         </div>
       </main>
     </div>
