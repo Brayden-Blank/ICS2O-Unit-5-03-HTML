@@ -1,0 +1,46 @@
+<mxfile host="65bd71144e">
+    <diagram id="OpDpUhwQjza_VK-rrT-j" name="Page-1">
+        <mxGraphModel dx="849" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="40" width="630" height="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="40" width="630" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;font style=&quot;font-size: 25px&quot;&gt;What Movie Can You See?&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="60" width="320" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Decide Rating&lt;/font&gt;" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;fontSize=25;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="230" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="How old are you?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="120" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&amp;lt;13" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="170" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=20;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="175" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="13-16" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="170" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="175" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="17+" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="170" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=20;fillColor=#007FFF;" vertex="1" parent="1">
+                    <mxGeometry x="405" y="175" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="You Can See An R Rated Movie!" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="75" y="320" width="300" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
