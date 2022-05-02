@@ -15,4 +15,26 @@ if (navigator.serviceWorker) {
   });
 }
 
-// This function 
+// This function determines what rating of a movie somebody can watch
+
+function determineClicked(){
+  var underThirteen = document.getElementById("under-thirteen")
+  var thirteenToSixteen = document.getElementById("thirteen-to-sixteen")
+  var seventeenOrOlder = document.getElementById("seventeen-or-older")
+  
+  if (underThirteen.checked == true) {
+    document.getElementById("rating-choice").innerHTML = 
+      "You can see a G rated movie!"
+  } 
+  else if (thirteenToSixteen.checked == true) {
+    document.getElementById("rating-choice").innerHTML = 
+      "You can see a PG13 movie!"
+  }
+  else if (seventeenOrOlder.checked == true) {
+    document.getElementById("rating-choice").innerHTML = 
+      "You can see an R rated movie!"
+  }
+  else 
+    document.getElementById("rating-choice").innerHTML =
+      "Please input an age"
+}
